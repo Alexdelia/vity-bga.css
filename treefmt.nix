@@ -18,5 +18,6 @@ _: {
     ".gitingore"
 
     ".env*"
+    "asset/**"
   ];
 }
