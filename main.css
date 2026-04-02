@@ -1,0 +1,100 @@
+:root {
+	background: #292929;
+	color: #d9d9d9;
+	text-transform: lowercase !important;
+}
+
+html {
+	--main-bg-colour: #292929;
+}
+
+body {
+	font-family: Roboto Mono;
+}
+
+.pageheader {
+	background-color: #1f1f1f !important;
+	border-radius: 0.5rem !important;
+}
+
+.pagesection__content,
+.portlet__content,
+.tips__content {
+	background-color: #1f1f1f !important;
+	border-radius: 0.5rem !important;
+	box-shadow: none !important;
+	padding: 1rem !important;
+}
+
+.bga-menu-bar.svelte-1edikia.svelte-1edikia {
+	background: #292929 !important;
+	box-shadow: none !important;
+}
+.bga-menu-bar-items__menu-item.svelte-1duixkh.svelte-1duixkh {
+	text-transform: lowercase !important;
+	background: #ffffff16 !important;
+	border-radius: 1rem;
+	margin: 0.5rem 0.5rem;
+}
+.bga-menu-bar-items__menu-item.svelte-1duixkh.svelte-1duixkh:hover {
+	background: #ffffff20 !important;
+}
+.bga-menu-bar-items__menu-item.svelte-1duixkh.svelte-1duixkh:last-of-type {
+	display: none;
+}
+
+.bga-omni-bar-holder.svelte-1edikia.svelte-1edikia {
+	.bg-white {
+		background: #4d4d4d !important;
+	}
+}
+.bga-omni-bar_button.svelte-ebwhm1.svelte-ebwhm1 {
+	opacity: 0;
+	width: 0;
+}
+
+.bga-link {
+	font-family: Roboto Mono !important;
+	font-weight: 600 !important;
+	color: #bef4f4 !important;
+	transition: none !important;
+}
+.bga-link:hover {
+	color: #fccffc !important;
+}
+
+.bgabutton_blue {
+	background: #363663 !important;
+}
+
+.pageheader_menu_verylarge .pageheader_big_switch {
+	background-color: #1a1a1a !important;
+	border-radius: 0.5rem !important;
+	border-left: none !important;
+	border-top: none !important;
+	-o-box-shadow: none !important;
+	box-shadow: none !important;
+	color: #bef4f4 !important;
+}
+.pageheader_menu_verylarge .pageheader_big_switch:hover {
+	color: #fccffc !important;
+}
+.pageheader_menu_verylarge .pageheader_mobile_switcher_wrap {
+	width: 30% !important;
+}
+
+.switcher_zone {
+	background: #303030 !important;
+	border-left: none !important;
+	border-radius: 0.5rem !important;
+	color: #bef4f4 !important;
+}
+.switcher_zone:hover {
+	color: #fccffc !important;
+}
+
+.tabbed_slider_bar_barcenter {
+	background-color: #1a1a1a !important;
+	font-weight: 600 !important;
+	padding: 0 !important;
+}
