@@ -70,6 +70,9 @@ body {
 .bgabutton_blue {
 	background: #363663 !important;
 }
+.bgabutton_blue:hover {
+	background: #484884 !important;
+}
 
 .pageheader_menu_verylarge .pageheader_big_switch {
 	background-color: #1a1a1a !important;
@@ -137,4 +140,31 @@ body {
 	.icon_plus {
 		display: none !important;
 	}
+}
+
+.game_box_wrap,
+.tiny_verycompactlobby .game_box_wrap.expandedgame_box_wrap {
+	background: #ffffff0c !important;
+	border: none !important;
+	border-radius: 1rem !important;
+}
+.gamename {
+	color: #bef4f4 !important;
+}
+.gamename:hover {
+	color: #fccffc !important;
+}
+.wannaplayauto_button {
+	border: none !important;
+}
+
+.emblempremium_big {
+	background-image: url(https://raw.githubusercontent.com/Alexdelia/vity-bga.css/refs/heads/main/asset/premium.svg) !important;
+	background-position: 0 !important;
+	width: 2rem !important;
+	height: 2rem !important;
+}
+
+.wannaplay_mask_button.del_favorite {
+	background-color: #404040 !important;
 }
