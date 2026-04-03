@@ -721,3 +721,20 @@ span.search_highlight {
 	background: var(--bg-elevation-1) !important;
 	color: var(--link-hover-color) !important;
 }
+
+.bga-dropdown-button-value {
+	background: var(--bg-elevation-3) !important;
+	color: var(--link-color) !important;
+	border-radius: 0.5rem 0 0 0.5rem !important;
+	border: none !important;
+}
+.bga-dropdown-button-value:hover {
+	color: var(--link-hover-color) !important;
+}
+.bga-dropdown-button-split {
+	background: var(--bg-elevation-4) !important;
+	border-radius: 0 0.5rem 0.5rem 0 !important;
+}
+.bga-dropdown-button-split:hover {
+	color: var(--link-hover-color) !important;
+}
