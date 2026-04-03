@@ -110,6 +110,9 @@ body {
 	justify-content: center !important;
 	align-items: center !important;
 }
+.chatwindowcollapsed:hover {
+	background-color: #ffffff20 !important;
+}
 #chatbarstackedmenu {
 	display: none !important;
 }
@@ -118,4 +121,7 @@ body {
 	left: 0 !important;
 	top: 0 !important;
 	position: relative !important;
+}
+.chatwindowcollapsedtitle:hover {
+	color: #fccffc !important;
 }
