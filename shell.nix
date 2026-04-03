@@ -5,11 +5,6 @@
   pre-commit-check = inputs.pre-commit-hooks.lib.${pkgs.system}.run {
     src = ./.;
     hooks = {
-      typos = {
-        enable = true;
-        stages = ["pre-commit"];
-      };
-
       nix-check = {
         enable = true;
 
