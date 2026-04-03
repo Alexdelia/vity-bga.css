@@ -257,6 +257,55 @@ body {
 	margin: 0.2rem !important;
 	font-size: 1.6rem !important;
 }
+.wannaplay_mask_button.myelo .icon20 {
+	display: none !important;
+}
+.myelo_value {
+	bottom: 0.45rem !important;
+	font-family:
+		Maple Mono NL,
+		monospace !important;
+	font-size: 0.8rem !important;
+	font-weight: 600 !important;
+	position: absolute !important;
+	width: 100% !important;
+	margin: 0 !important;
+}
+#gamerank_value {
+	font-family:
+		Maple Mono NL,
+		monospace !important;
+	font-weight: 600 !important;
+}
+.wannaplay_mask_button.how_to_play_button i {
+	margin-top: 0.4rem !important;
+	font-size: 1.3rem !important;
+}
+
+.wannaplay_mask_button.how_to_play_button {
+	background-color: #136c13;
+}
+.gamerank_apprentice {
+	background-color: #0f8a61;
+}
+.gamerank_beginner {
+	background-color: #0f8a8a;
+}
+.gamerank_average {
+	background-color: #0f618a;
+}
+.gamerank_good {
+	background-color: #0f388a;
+}
+.gamerank_strong {
+	background-color: #0f0f8a;
+}
+.gamerank_expert {
+	background-color: #380f8a;
+}
+.gamerank_master {
+	background-color: #610f8a;
+}
 
 .bga_big_input {
 	background-color: #4d4d4d !important;
