@@ -40,6 +40,18 @@ body {
 	border-radius: 0.5rem !important;
 }
 
+.pagesection {
+	background-color: var(--bg-elevation-1) !important;
+	border-radius: 0.5rem !important;
+	box-shadow: none !important;
+}
+.pagesection h2,
+.pagesection h3,
+.portlet h2,
+.portlet h3 {
+	background: none !important;
+	color: #d9d9d9 !important;
+}
 .pagesection__content,
 .portlet__content,
 .tips__content {
@@ -47,6 +59,11 @@ body {
 	border-radius: 0.5rem !important;
 	box-shadow: none !important;
 	padding: 1rem !important;
+}
+
+.bga-game-browser__panel {
+	background: none !important;
+	border: none !important;
 }
 
 .bga-menu-bar {
@@ -148,19 +165,33 @@ body {
 .bga-button--purple:hover {
 	background: #5a3a8a !important;
 }
+.bgabutton_blue,
 .bgabutton_blue:after,
+.bga-button--blue,
 .bga-button--blue:after,
+.bgabutton_red,
 .bgabutton_red:after,
+.bga-button--red,
 .bga-button--red:after,
+.bgautton_green,
 .bgabutton_green:after,
+.bga-button--green,
 .bga-button--green:after,
+.bgabutton_yellow,
 .bgabutton_yellow:after,
+.bga-button--yellow,
 .bga-button--yellow:after,
+.bgabutton_purple,
 .bgabutton_purple:after,
+.bga-button--purple,
 .bga-button--purple:after,
+.bgabutton_gray,
 .bgabutton_gray:after,
+.bga-button--gray,
 .bga-button--gray:after,
+.bgabutton_darkgray,
 .bgabutton_darkgray:after,
+.bga-button--darkgray,
 .bga-button--darkgray:after {
 	box-shadow: none !important;
 	border: none !important;
@@ -219,6 +250,11 @@ body {
 	color: var(--link-hover-color) !important;
 }
 
+.roundedbox {
+	background-color: var(--bg-elevation-1) !important;
+	color: #d9d9d9;
+}
+
 .tabbed_slider_bar_left,
 .tabbed_slider_bar_right {
 	display: none !important;
@@ -262,6 +298,26 @@ body {
 }
 .wannaplayauto_button {
 	border: none !important;
+}
+.wannaplayauto_loading {
+	background-color: #000000c0 !important;
+	width: 5rem !important;
+	height: 1rem !important;
+	bottom: 4rem !important;
+}
+.wannaplayauto_loadingbar_tp1 {
+	height: 1rem !important;
+}
+.wannaplayauto_loadingbartxt {
+	color: #fff !important;
+	font-size: 0.6rem !important;
+	text-shadow: none !important;
+}
+.wannaplayauto_time {
+	color: #fff !important;
+	font-size: 1rem !important;
+	text-shadow: none !important;
+	bottom: 2rem !important;
 }
 
 .emblempremium {
