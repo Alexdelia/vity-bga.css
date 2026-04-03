@@ -72,6 +72,7 @@ body {
 .bgabutton_blue {
 	background: #363663 !important;
 	border: none !important;
+	box-shadow: none !important;
 }
 .bgabutton_blue:hover {
 	background: #484884 !important;
@@ -79,9 +80,25 @@ body {
 .bgabutton_red {
 	background: #993333 !important;
 	border: none !important;
+	box-shadow: none !important;
 }
 .bgabutton_red:hover {
 	background: #bf4040 !important;
+}
+.bgabutton_gray {
+	background: #595959 !important;
+	color: #fff !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+.bgabutton_gray:hover {
+	background: #666666 !important;
+	color: #fff !important;
+}
+.bgabutton_blue:after,
+.bgabutton_red:after,
+.bgabutton_gray:after {
+	border: none !important;
 }
 
 .pageheader_menu_verylarge .pageheader_big_switch {
@@ -175,10 +192,10 @@ body {
 .emblempremium {
 	background-image: url(https://raw.githubusercontent.com/Alexdelia/vity-bga.css/refs/heads/main/asset/premium.svg) !important;
 	background-position: 0 !important;
-	width: 1rem !important;
-	height: 1rem !important;
+	width: 0.8rem !important;
+	height: 0.8rem !important;
 	right: -0.5rem !important;
-	top: -0.5rem !important;
+	top: -0.2rem !important;
 }
 .emblempremium_big {
 	background-image: url(https://raw.githubusercontent.com/Alexdelia/vity-bga.css/refs/heads/main/asset/premium.svg) !important;
@@ -225,12 +242,34 @@ body {
 #page-title {
 	background-color: #00000000 !important;
 	box-shadow: none !important;
+	position: relative !important;
 }
 #topbar {
 	background: #00000000 !important;
 	box-shadow: none !important;
 }
+#topbar_content {
+	height: 3rem !important;
+}
+.topbar_left_content {
+	width: 100% !important;
+}
+#site-logo {
+	display: none !important;
+}
+#tableinfos {
+	flex-direction: row !important;
+	width: 100% !important;
+}
 
 .gamestart_overlay {
 	background: #292929 !important;
+}
+
+.statstable th {
+	background-color: #194d33 !important;
+}
+.statstable td,
+.statstable th {
+	border: 1px solid #4d4d4d !important;
 }
