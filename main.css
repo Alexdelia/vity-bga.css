@@ -1,6 +1,9 @@
 :root {
 	--bga-player-panel-background: #36293d;
 
+	--number-font-family: "Maple Mono NL", monospace;
+	--number-font-weight: 600;
+
 	background: #292929;
 	color: #d9d9d9;
 	text-transform: lowercase !important;
@@ -262,20 +265,16 @@ body {
 }
 .myelo_value {
 	bottom: 0.45rem !important;
-	font-family:
-		Maple Mono NL,
-		monospace !important;
+	font-family: var(--number-font-family) !important;
+	font-weight: var(--number-font-weight) !important;
 	font-size: 0.8rem !important;
-	font-weight: 600 !important;
 	position: absolute !important;
 	width: 100% !important;
 	margin: 0 !important;
 }
 #gamerank_value {
-	font-family:
-		Maple Mono NL,
-		monospace !important;
-	font-weight: 600 !important;
+	font-family: var(--number-font-family) !important;
+	font-weight: var(--number-font-weight) !important;
 }
 .wannaplay_mask_button.how_to_play_button i {
 	margin-top: 0.4rem !important;
@@ -305,6 +304,31 @@ body {
 }
 .gamerank_master {
 	background-color: #610f8a;
+}
+
+#player_name,
+#real_player_name,
+.playername {
+	text-transform: none !important;
+}
+
+.xp_container {
+	background-color: #4d4d4d80 !important;
+	border-radius: 1rem !important;
+	border: none !important;
+
+	padding: 0.25rem 0.5rem !important;
+
+	color: #40bfbf !important;
+	font-family: var(--number-font-family) !important;
+	font-weight: var(--number-font-weight) !important;
+
+	.arrow,
+	.arrowback,
+	.arrowl,
+	.arrowbackl {
+		display: none !important;
+	}
 }
 
 .bga_big_input {
