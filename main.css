@@ -72,35 +72,44 @@ body {
 	color: #fccffc !important;
 }
 
-.bgabutton_blue {
+.bgabutton_blue,
+.bga-button--blue {
 	background: #363663 !important;
 	border: none !important;
 	box-shadow: none !important;
 }
-.bgabutton_blue:hover {
+.bgabutton_blue:hover,
+.bga-button--blue:hover {
 	background: #484884 !important;
 }
-.bgabutton_red {
+.bgabutton_red,
+.bga-button--red {
 	background: #993333 !important;
 	border: none !important;
 	box-shadow: none !important;
 }
-.bgabutton_red:hover {
+.bgabutton_red:hover,
+.bga-button--red:hover {
 	background: #bf4040 !important;
 }
-.bgabutton_gray {
+.bgabutton_gray,
+.bga-button--gray {
 	background: #4d4d4d !important;
 	color: #fff !important;
 	border: none !important;
 	box-shadow: none !important;
 }
-.bgabutton_gray:hover {
+.bgabutton_gray:hover,
+.bga-button--gray:hover {
 	background: #666666 !important;
 	color: #fff !important;
 }
 .bgabutton_blue:after,
+.bga-button--blue:after,
 .bgabutton_red:after,
-.bgabutton_gray:after {
+.bga-button--red:after,
+.bgabutton_gray:after,
+.bga-button--gray:after {
 	border: none !important;
 }
 
@@ -329,6 +338,11 @@ body {
 	.arrowbackl {
 		display: none !important;
 	}
+}
+
+.palmares_details {
+	font-family: var(--number-font-family) !important;
+	font-weight: var(--number-font-weight) !important;
 }
 
 .bga_big_input {
