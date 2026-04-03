@@ -1,16 +1,25 @@
 :root {
 	--bga-player-panel-background: #36293d;
 
+	--bg-elevation-0: #1a1a1a;
+	--bg-elevation-1: #1f1f1f;
+	--bg-elevation-2: #292929;
+	--bg-elevation-3: #303030;
+	--bg-elevation-4: #404040;
+	--bg-elevation-5: #4d4d4d;
+	--bg-elevation-6: #595959;
+	--bg-elevation-7: #666666;
+
 	--number-font-family: "Maple Mono NL", monospace;
 	--number-font-weight: 600;
 
-	background: #292929;
+	background: var(--bg-elevation-2);
 	color: #d9d9d9;
 	text-transform: lowercase !important;
 }
 
 html {
-	--main-bg-colour: #292929;
+	--main-bg-colour: var(--bg-elevation-2);
 }
 
 body {
@@ -20,21 +29,21 @@ body {
 }
 
 .pageheader {
-	background-color: #1f1f1f !important;
+	background-color: var(--bg-elevation-1) !important;
 	border-radius: 0.5rem !important;
 }
 
 .pagesection__content,
 .portlet__content,
 .tips__content {
-	background-color: #1f1f1f !important;
+	background-color: var(--bg-elevation-1) !important;
 	border-radius: 0.5rem !important;
 	box-shadow: none !important;
 	padding: 1rem !important;
 }
 
 .bga-menu-bar.svelte-1edikia.svelte-1edikia {
-	background: #292929 !important;
+	background: var(--bg-elevation-2) !important;
 	box-shadow: none !important;
 }
 .bga-menu-bar-items__menu-item.svelte-1duixkh.svelte-1duixkh {
@@ -52,7 +61,7 @@ body {
 
 .bga-omni-bar-holder.svelte-1edikia.svelte-1edikia {
 	.bg-white {
-		background: #4d4d4d !important;
+		background: var(--bg-elevation-5) !important;
 	}
 }
 .bga-omni-bar_button.svelte-ebwhm1.svelte-ebwhm1 {
@@ -94,14 +103,14 @@ body {
 }
 .bgabutton_gray,
 .bga-button--gray {
-	background: #4d4d4d !important;
+	background: var(--bg-elevation-5) !important;
 	color: #fff !important;
 	border: none !important;
 	box-shadow: none !important;
 }
 .bgabutton_gray:hover,
 .bga-button--gray:hover {
-	background: #666666 !important;
+	background: var(--bg-elevation-7) !important;
 	color: #fff !important;
 }
 .bgabutton_blue:after,
@@ -114,7 +123,7 @@ body {
 }
 
 .pageheader_menu_verylarge .pageheader_big_switch {
-	background-color: #1a1a1a !important;
+	background-color: var(--bg-elevation-0) !important;
 	border-radius: 0.5rem !important;
 	border-left: none !important;
 	border-top: none !important;
@@ -130,7 +139,7 @@ body {
 }
 
 .switcher_zone {
-	background: #303030 !important;
+	background: var(--bg-elevation-3) !important;
 	border-left: none !important;
 	border-radius: 0.5rem !important;
 	color: #bef4f4 !important;
@@ -171,7 +180,7 @@ body {
 	display: none !important;
 }
 .tabbed_slider_bar_barcenter {
-	background-color: #1f1f1f !important;
+	background-color: var(--bg-elevation-1) !important;
 	font-weight: 600 !important;
 	bottom: -1px !important;
 	padding: 0 2rem 0.5rem 0.5rem !important;
@@ -227,13 +236,13 @@ body {
 }
 
 .wannaplay_mask_button.del_favorite {
-	background-color: #404040 !important;
+	background-color: var(--bg-elevation-4) !important;
 }
 .wannaplay_mask_button.del_favorite i {
 	margin-top: 0.3rem !important;
 }
 .wannaplay_mask_button.wannaplayauto_pref {
-	background-color: #595959 !important;
+	background-color: var(--bg-elevation-6) !important;
 	margin: 0.25rem 0 !important;
 }
 
@@ -322,7 +331,11 @@ body {
 }
 
 .xp_container {
-	background-color: #4d4d4d80 !important;
+	background-color: color-mix(
+		in srgb,
+		var(--bg-elevation-5) 50%,
+		transparent
+	) !important;
 	border-radius: 1rem !important;
 	border: none !important;
 
@@ -346,7 +359,7 @@ body {
 }
 
 .bga_big_input {
-	background-color: #4d4d4d !important;
+	background-color: var(--bg-elevation-5) !important;
 	border: none !important;
 	color: #cccccc !important;
 }
@@ -375,7 +388,7 @@ body {
 }
 
 .gamestart_overlay {
-	background: #292929 !important;
+	background: var(--bg-elevation-2) !important;
 }
 
 .statstable th {
@@ -383,5 +396,5 @@ body {
 }
 .statstable td,
 .statstable th {
-	border: 1px solid #4d4d4d !important;
+	border: 1px solid var(--bg-elevation-5) !important;
 }
