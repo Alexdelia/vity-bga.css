@@ -84,8 +84,6 @@ body {
 .bgabutton_blue,
 .bga-button--blue {
 	background: #363663 !important;
-	border: none !important;
-	box-shadow: none !important;
 }
 .bgabutton_blue:hover,
 .bga-button--blue:hover {
@@ -94,31 +92,67 @@ body {
 .bgabutton_red,
 .bga-button--red {
 	background: #993333 !important;
-	border: none !important;
-	box-shadow: none !important;
 }
 .bgabutton_red:hover,
 .bga-button--red:hover {
 	background: #bf4040 !important;
 }
+.bgabutton_green,
+.bga-button--green {
+	background: #2a5a2a !important;
+}
+.bgabutton_green:hover,
+.bga-button--green:hover {
+	background: #3a7a3a !important;
+}
+.bgabutton_yellow,
+.bga-button--yellow {
+	background: #5a5a1a !important;
+}
+.bgabutton_yellow:hover,
+.bga-button--yellow:hover {
+	background: #7a7a2a !important;
+}
 .bgabutton_gray,
 .bga-button--gray {
 	background: var(--bg-elevation-5) !important;
 	color: #fff !important;
-	border: none !important;
-	box-shadow: none !important;
 }
 .bgabutton_gray:hover,
 .bga-button--gray:hover {
 	background: var(--bg-elevation-7) !important;
 	color: #fff !important;
 }
+.bgabutton_darkgray {
+	background: var(--bg-elevation-4) !important;
+	color: #d9d9d9 !important;
+}
+.bgabutton_darkgray:hover {
+	background: var(--bg-elevation-5) !important;
+}
+.bgabutton_purple,
+.bga-button--purple {
+	background: #4a2a6a !important;
+}
+.bgabutton_purple:hover,
+.bga-button--purple:hover {
+	background: #5a3a8a !important;
+}
 .bgabutton_blue:after,
 .bga-button--blue:after,
 .bgabutton_red:after,
 .bga-button--red:after,
+.bgabutton_green:after,
+.bga-button--green:after,
+.bgabutton_yellow:after,
+.bga-button--yellow:after,
+.bgabutton_purple:after,
+.bga-button--purple:after,
 .bgabutton_gray:after,
-.bga-button--gray:after {
+.bga-button--gray:after,
+.bgabutton_darkgray:after,
+.bga-button--darkgray:after {
+	box-shadow: none !important;
 	border: none !important;
 }
 
@@ -397,4 +431,251 @@ body {
 .statstable td,
 .statstable th {
 	border: 1px solid var(--bg-elevation-5) !important;
+}
+
+.gametable {
+	background-color: var(--bg-elevation-1) !important;
+	border: 1px solid var(--bg-elevation-4) !important;
+	box-shadow: none !important;
+}
+.player_is_at_table .gametable.gametable_status_init,
+.player_is_at_table .gametable.gametable_status_open {
+	background-color: #1a2e1a !important;
+	border-color: #3a5a3a !important;
+}
+.player_is_at_table .gametable.gametable_status_asyncinit,
+.player_is_at_table .gametable.gametable_status_asyncopen {
+	background-color: #2e2a1a !important;
+	border-color: #5a4a2a !important;
+}
+.gametable_separator {
+	background-color: var(--bg-elevation-4) !important;
+}
+
+.tundra .dijitDialog,
+.tundra .dijitDialogPaneContent,
+.tundra .dijitTooltipContainer {
+	background: var(--bg-elevation-3) !important;
+	color: #d9d9d9 !important;
+}
+
+.blockchoice {
+	border: 1px solid var(--bg-elevation-5) !important;
+	background-color: var(--bg-elevation-1) !important;
+}
+.blockchoice:hover {
+	background-color: var(--bg-elevation-3) !important;
+	border: 1px solid #bef4f4 !important;
+}
+.blockchoice.current_selection,
+.blockchoice.current_selection:hover {
+	background-color: #1a3a1a !important;
+	color: #d9d9d9 !important;
+}
+
+.discussion_bubble {
+	background: var(--bg-elevation-4) !important;
+	color: #d9d9d9 !important;
+}
+.discussion_bubble:after {
+	border-color: var(--bg-elevation-4) transparent !important;
+}
+
+.newsblock {
+	background-color: var(--bg-elevation-3) !important;
+}
+
+.pagesection__content .controlpanelmenu {
+	background: var(--bg-elevation-2) !important;
+}
+.controlpanelmenu .panelmenuicon,
+.controlpanelmenu .subtitle {
+	color: #d9d9d9 !important;
+}
+
+.progressbar {
+	background-color: var(--bg-elevation-3) !important;
+}
+.progressbar .progressbar_valuename {
+	color: #d9d9d9 !important;
+}
+.progressbar_white_background {
+	background-color: var(--bg-elevation-2) !important;
+}
+.grad {
+	background-color: var(--bg-elevation-5) !important;
+}
+
+.post {
+	border-bottom: 1px solid var(--bg-elevation-4) !important;
+}
+.comment {
+	background-color: var(--bg-elevation-2) !important;
+	background-image: none !important;
+}
+.board_readonly .post {
+	background-color: var(--bg-elevation-1) !important;
+}
+.board_readonly .comment {
+	background-color: var(--bg-elevation-3) !important;
+}
+.extended_message_hidden:after {
+	background: linear-gradient(
+		180deg,
+		transparent,
+		var(--bg-elevation-1)
+	) !important;
+}
+.commentcontent .extended_message_hidden:after {
+	background: linear-gradient(
+		180deg,
+		transparent,
+		var(--bg-elevation-2)
+	) !important;
+}
+
+.board_fake_input {
+	background-color: var(--bg-elevation-3) !important;
+	border: 1px solid var(--bg-elevation-5) !important;
+	color: #aaa !important;
+}
+
+.language_preference_tip {
+	background-color: #2a2a1a !important;
+	border: 2px solid #8a6a2a !important;
+	color: #d9d9d9 !important;
+}
+
+.readonly_textarea {
+	background-color: var(--bg-elevation-3) !important;
+}
+.active_textarea:focus-within,
+.textarea_status_empty {
+	background-color: var(--bg-elevation-4) !important;
+}
+.textarea_status_machine {
+	background-color: #1a2a3a !important;
+}
+.textarea_status_confirmed,
+.textarea_status_recorded {
+	background-color: #1a2a1a !important;
+}
+.textarea_status_validated {
+	background-color: #2a2a1a !important;
+}
+
+.tournament {
+	border: 1px solid var(--bg-elevation-4) !important;
+	box-shadow: none !important;
+}
+.tournament_register {
+	background-color: #2a3a2a !important;
+}
+.tournament_progress {
+	background-color: #3a2a3a !important;
+}
+.tournament_finished {
+	background-color: var(--bg-elevation-2) !important;
+}
+.tournament_info_details_important {
+	color: #4a9a4a !important;
+}
+
+.game_suggestion {
+	background-color: var(--bg-elevation-1) !important;
+	border: 1px solid var(--bg-elevation-4) !important;
+}
+#gamelobby-module .suggestedtable .gametable {
+	border: 3px solid #2a5a2a !important;
+}
+#gamelobby-module .suggestedtable .suggestion_wrap {
+	color: #5aba5a !important;
+}
+
+.gamelist .game_summary {
+	background-image: none !important;
+	background-color: var(--bg-elevation-1) !important;
+	border: 1px solid var(--bg-elevation-4) !important;
+}
+
+.warning_portlet .portlet__content {
+	background-color: #3a2020 !important;
+}
+
+#expected_table_banners_rightcolumn .expected_banner,
+#expected_table_banners .expected_banner,
+#tournament_inprogress_banners .expected_banner {
+	background-color: var(--bg-elevation-2) !important;
+	border: 2px solid var(--bg-elevation-5) !important;
+	box-shadow: none !important;
+}
+
+.rightcolumn_gameinfo {
+	border: 1px solid var(--bg-elevation-5) !important;
+	color: #d9d9d9 !important;
+}
+
+.tips {
+	border: 1px solid var(--bg-elevation-4) !important;
+}
+
+.newbgatable th {
+	border-bottom: 2px solid var(--bg-elevation-5) !important;
+	color: #d9d9d9 !important;
+}
+.newbgatable td {
+	color: #d9d9d9 !important;
+}
+
+.row-data {
+	border-bottom: 1px solid var(--bg-elevation-4) !important;
+}
+.row-data .row-label {
+	color: #aaa !important;
+}
+
+.score-entry {
+	border-bottom: 1px solid var(--bg-elevation-4) !important;
+}
+
+.agendaitem {
+	border-bottom: 1px solid var(--bg-elevation-4) !important;
+}
+
+.bga_separator {
+	border-bottom: 1px solid var(--bg-elevation-4) !important;
+}
+
+.legal_expl {
+	background-color: #2a2a1a !important;
+	color: #d9d9d9 !important;
+}
+
+span.search_highlight {
+	background-color: #5a5a1a !important;
+	color: #fff !important;
+}
+
+.emblem {
+	background-color: var(--bg-elevation-3) !important;
+	border: 1px solid var(--bg-elevation-5) !important;
+	box-shadow: none !important;
+}
+
+.bgaswitch {
+	box-shadow: none !important;
+}
+.bgaswitchcursor {
+	box-shadow: none !important;
+}
+
+#administration-module .openmodule {
+	background-color: var(--bg-elevation-2) !important;
+}
+#administration-module .openmodule .adminmodule_inner {
+	background-color: var(--bg-elevation-3) !important;
+}
+
+.gameinfoname {
+	color: #bef4f4 !important;
 }
