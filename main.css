@@ -176,3 +176,30 @@ body {
 	background-color: #595959 !important;
 	margin: 0.25rem 0 !important;
 }
+
+.wannaplay_games_list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+	gap: 2rem;
+	margin: 1rem 0 0 1rem !important;
+}
+.game_box_wrap {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	width: 10rem !important;
+	height: 10rem !important;
+}
+.wannaplay_item {
+	margin-bottom: 0 !important;
+	margin-right: 0 !important;
+}
+.wannaplayauto_item {
+	width: 10rem !important;
+	height: 10rem !important;
+}
+
+.bga_big_input {
+	background-color: #4d4d4d !important;
+	border: none !important;
+	color: #cccccc !important;
+}
