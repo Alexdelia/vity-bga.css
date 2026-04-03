@@ -9,7 +9,9 @@ html {
 }
 
 body {
-	font-family: Roboto Mono;
+	font-family:
+		Roboto Mono,
+		monospace;
 }
 
 .pageheader {
@@ -54,7 +56,9 @@ body {
 }
 
 .bga-link {
-	font-family: Roboto Mono !important;
+	font-family:
+		Roboto Mono,
+		monospace !important;
 	font-weight: 600 !important;
 	color: #bef4f4 !important;
 	transition: none !important;
@@ -93,12 +97,6 @@ body {
 	color: #fccffc !important;
 }
 
-.tabbed_slider_bar_barcenter {
-	background-color: #1a1a1a !important;
-	font-weight: 600 !important;
-	padding: 0 !important;
-}
-
 .chatwindowcollapsed {
 	background-color: #ffffff10 !important;
 	border-radius: 0.5rem 0.5rem 0 0 !important;
@@ -124,4 +122,19 @@ body {
 }
 .chatwindowcollapsedtitle:hover {
 	color: #fccffc !important;
+}
+
+.tabbed_slider_bar_left,
+.tabbed_slider_bar_right {
+	display: none !important;
+}
+.tabbed_slider_bar_barcenter {
+	background-color: #1f1f1f !important;
+	font-weight: 600 !important;
+	bottom: -1px !important;
+	padding: 0 2rem 0.5rem 0.5rem !important;
+	border-radius: 0 0 0.5rem 0.5rem !important;
+	.icon_plus {
+		display: none !important;
+	}
 }
