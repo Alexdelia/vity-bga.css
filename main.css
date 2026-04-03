@@ -154,6 +154,10 @@ body {
 .gamename:hover {
 	color: #fccffc !important;
 }
+.wannaplay_item .wannaplay_gamename {
+	width: 80% !important;
+	left: 10% !important;
+}
 .wannaplayauto_button {
 	border: none !important;
 }
@@ -167,4 +171,8 @@ body {
 
 .wannaplay_mask_button.del_favorite {
 	background-color: #404040 !important;
+}
+.wannaplay_mask_button.wannaplayauto_pref {
+	background-color: #595959 !important;
+	margin: 0.25rem 0 !important;
 }
