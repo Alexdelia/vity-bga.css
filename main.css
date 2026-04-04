@@ -351,8 +351,18 @@ body {
 .wannaplay_games_list {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
-	gap: 2rem;
-	margin: 1rem 0 0 1rem !important;
+}
+@media all and (min-width: 30rem) {
+	.wannaplay_games_list {
+		gap: 2rem !important;
+		margin: 1rem 0 0 1rem !important;
+	}
+}
+@media all and (max-width: calc(30rem - 1px)) {
+	.wannaplay_games_list {
+		gap: 1rem !important;
+		margin: 0.5rem 0 0 0.5rem !important;
+	}
 }
 .game_box_wrap {
 	margin-left: 0 !important;
