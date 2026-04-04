@@ -794,3 +794,14 @@ span.search_highlight {
 .bga-dropdown-button-split:hover {
 	color: var(--link-hover-color) !important;
 }
+
+.standard_popin {
+	background: var(--bg-elevation-2) !important;
+	border: none !important;
+	border-radius: 0.5rem !important;
+	box-shadow: none !important;
+}
+.standard_popin_underlay {
+	background: var(--bg-elevation-2) !important;
+	opacity: 0.5 !important;
+}
