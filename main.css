@@ -10,6 +10,8 @@
 	--bg-elevation-6: #595959;
 	--bg-elevation-7: #666666;
 
+	--normal-text-color: #d9d9d9;
+
 	--link-color: #bef4f4;
 	--link-hover-color: #fccffc;
 
@@ -17,7 +19,7 @@
 	--number-font-weight: 600;
 
 	background: var(--bg-elevation-2);
-	color: #d9d9d9;
+	color: var(--normal-text-color);
 	text-transform: lowercase !important;
 }
 
@@ -50,7 +52,7 @@ body {
 .portlet h2,
 .portlet h3 {
 	background: none !important;
-	color: #d9d9d9 !important;
+	color: var(--normal-text-color) !important;
 }
 .pagesection__content,
 .portlet__content,
@@ -152,7 +154,7 @@ body {
 }
 .bgabutton_darkgray {
 	background: var(--bg-elevation-4) !important;
-	color: #d9d9d9 !important;
+	color: var(--normal-text-color) !important;
 }
 .bgabutton_darkgray:hover {
 	background: var(--bg-elevation-5) !important;
@@ -252,7 +254,7 @@ body {
 
 .roundedbox {
 	background-color: var(--bg-elevation-1) !important;
-	color: #d9d9d9;
+	color: var(--normal-text-color) !important;
 }
 
 .tabbed_slider_bar_left,
@@ -522,7 +524,7 @@ body {
 .tundra .dijitDialogPaneContent,
 .tundra .dijitTooltipContainer {
 	background: var(--bg-elevation-3) !important;
-	color: #d9d9d9 !important;
+	color: var(--normal-text-color) !important;
 }
 
 .blockchoice {
@@ -536,12 +538,12 @@ body {
 .blockchoice.current_selection,
 .blockchoice.current_selection:hover {
 	background-color: #1a3a1a !important;
-	color: #d9d9d9 !important;
+	color: var(--normal-text-color) !important;
 }
 
 .discussion_bubble {
 	background: var(--bg-elevation-4) !important;
-	color: #d9d9d9 !important;
+	color: var(--normal-text-color) !important;
 }
 .discussion_bubble:after {
 	border-color: var(--bg-elevation-4) transparent !important;
@@ -556,14 +558,14 @@ body {
 }
 .controlpanelmenu .panelmenuicon,
 .controlpanelmenu .subtitle {
-	color: #d9d9d9 !important;
+	color: var(--normal-text-color) !important;
 }
 
 .progressbar {
 	background-color: var(--bg-elevation-3) !important;
 }
 .progressbar .progressbar_valuename {
-	color: #d9d9d9 !important;
+	color: var(--normal-text-color) !important;
 }
 .progressbar_white_background {
 	background-color: var(--bg-elevation-2) !important;
@@ -609,7 +611,7 @@ body {
 .language_preference_tip {
 	background-color: #2a2a1a !important;
 	border: 2px solid #8a6a2a !important;
-	color: #d9d9d9 !important;
+	color: var(--normal-text-color) !important;
 }
 
 .readonly_textarea {
@@ -678,7 +680,7 @@ body {
 
 .rightcolumn_gameinfo {
 	border: 1px solid var(--bg-elevation-5) !important;
-	color: #d9d9d9 !important;
+	color: var(--normal-text-color) !important;
 }
 
 .tips {
@@ -687,10 +689,10 @@ body {
 
 .newbgatable th {
 	border-bottom: 2px solid var(--bg-elevation-5) !important;
-	color: #d9d9d9 !important;
+	color: var(--normal-text-color) !important;
 }
 .newbgatable td {
-	color: #d9d9d9 !important;
+	color: var(--normal-text-color) !important;
 }
 
 .row-data {
@@ -714,7 +716,7 @@ body {
 
 .legal_expl {
 	background-color: #2a2a1a !important;
-	color: #d9d9d9 !important;
+	color: var(--normal-text-color) !important;
 }
 
 span.search_highlight {
@@ -811,4 +813,12 @@ span.search_highlight {
 	border: none !important;
 	border-radius: 0.5rem !important;
 	box-shadow: none !important;
+}
+
+.counters {
+	color: var(--normal-text-color) !important;
+}
+
+.player-settings {
+	color: var(--normal-text-color) !important;
 }
