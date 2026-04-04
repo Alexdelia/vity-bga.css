@@ -805,3 +805,10 @@ span.search_highlight {
 	background: var(--bg-elevation-2) !important;
 	opacity: 0.5 !important;
 }
+
+.playerstart_content {
+	background-color: var(--bg-elevation-3) !important;
+	border: none !important;
+	border-radius: 0.5rem !important;
+	box-shadow: none !important;
+}
