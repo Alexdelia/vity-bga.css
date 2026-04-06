@@ -832,3 +832,10 @@ span.search_highlight {
 .player-settings {
 	color: var(--normal-text-color) !important;
 }
+
+.bga-game-harmonies .player-board {
+	background: var(--bga-player-panel-background) !important;
+}
+.bga-game-toybattle .body {
+	background: var(--main-bg-colour) !important;
+}
